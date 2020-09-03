@@ -14,7 +14,7 @@ h4,h6{
 	font-weight: bold;
 	text-align: center;
 	font-family: Roboto-Bold;
-	padding: 23px 119px;
+	margin-bottom: 45px;
 }
 
 h6{
@@ -31,6 +31,9 @@ p{
 	font-family: Roboto-Medium;
     font-size: 26px;
 
+}
+b{
+	font-weight: bold !important;
 }
 button{
     background-color: #41B381 !important;
