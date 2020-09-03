@@ -32,6 +32,9 @@ p{
     font-size: 26px;
 
 }
+b{
+	font-weight: bold !important;
+}
 button{
     background-color: #41B381 !important;
     border-radius: 22px !important;
