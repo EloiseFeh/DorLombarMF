@@ -49,6 +49,6 @@ button{
 }
 .linha{
 	border-bottom: solid;
-    border-bottom-width: 0.5px;
-    border-bottom-color: #D1D3D4;
+    border-bottom-width: 1px;
+    border-bottom-color: #C4C4C4;
 }
