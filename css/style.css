@@ -41,10 +41,13 @@ button{
     border: none;
     font-family: Roboto-Medium !important;
     color: white;
-    font-size: 151% !important;
+    font-size: 22px !important;
     position: absolute;
    	margin: 0 auto;
     padding: 11px 51px;
+    left: 0;
+    top: 95%;
+    right: 0;
 }
 
 verde{
