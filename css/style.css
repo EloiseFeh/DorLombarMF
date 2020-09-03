@@ -9,7 +9,7 @@ h2{
 	padding: 26px 0;
 }
 
-h4{
+h4,h6{
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
@@ -17,11 +17,28 @@ h4{
 	padding: 23px 119px;
 }
 
+h6{
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	font-family: Roboto-Bold;
+	padding: 23px;
+}
+
+
 p{
 	font-family: Roboto-Medium;
     font-size: 18px;
     padding: 0 41px;
 
+}
+button{
+    background-color: #41B381 !important;
+    border-radius: 22px !important;
+    border: none;
+    font-family: Roboto-Medium !important;
+    color: white;
+    font-size: 20px !important;
 }
 .texto-sessao4{
 	display: flex;
@@ -30,4 +47,8 @@ p{
 
 .images{
 	padding: 46px 0;
+}
+.div-sombra{
+	border-radius: 28px;
+    padding-bottom: 27px !important;
 }
