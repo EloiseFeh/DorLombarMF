@@ -51,6 +51,7 @@ button{
 .div-sombra{
 	border-radius: 28px;
     padding-bottom: 37px !important;
+    position: relative;
 }
 .linha{
 	border-bottom: solid;
