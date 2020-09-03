@@ -47,3 +47,8 @@ button{
 	border-radius: 28px;
     padding-bottom: 27px !important;
 }
+.linha{
+	border-bottom: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: #D1D3D4;
+}
