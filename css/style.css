@@ -9,7 +9,7 @@ h2{
 	padding: 26px 0;
 }
 
-h4,h6{
+h4{
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
@@ -19,11 +19,11 @@ h4,h6{
 
 h6{
 	font-style: normal;
-	font-weight: bold;
-	text-align: center;
-	font-family: Roboto-Bold;
-	padding: 23px;
-	font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Roboto-Bold;
+    padding: 24px 0;
+    font-size: 34px;
 }
 
 
@@ -43,10 +43,10 @@ button{
     color: white;
     font-size: 22px !important;
     position: absolute;
-   	margin: 0 auto;
-    padding: 11px 95px;
+    margin: 0 auto;
+    padding: 15px 84px;
     left: 0;
-    top: 95%;
+    top: 96%;
     right: 0;
     cursor: pointer;
 }
