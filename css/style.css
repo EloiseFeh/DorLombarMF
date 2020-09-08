@@ -70,3 +70,13 @@ verde{
     border-bottom-color: #C4C4C4;
     padding-bottom: 25px;
 }
+
+#inner{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 874%;
+    background-color: #4c5;
+    color: #333;
+    display: block;
+}

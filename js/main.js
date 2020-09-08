@@ -1,0 +1,1 @@
+$ (document) .ready (function () {$ ('# cronica button'). click (function () {$ (this) .next (). slideToggle ();});});
