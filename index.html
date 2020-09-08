@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="js/jquery-3.5.0.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
+	<script  src="js/main.js"></script>
 	<meta charset="utf-8">
 	<title>Movimento</title>
 </head>
@@ -116,9 +118,9 @@
 	      </div>
 
 	      <div class="col s6">
-	      	<button class="ButtonS2">
+	      	<a class="ButtonS2 waves-effect waves-light modal-trigger" href="#modal1">
 	      		<img class="ButtonS2-img" src="imgs/icon-corpo.png">
-	      	</button>
+	      	</a>
 	      	<!-- <p class="ButtonS2-title">Corpo</p> -->
 	      </div>
 
@@ -136,6 +138,16 @@
 
 	  </div>
 	</div>
+
+ <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 
 <!-- Sessão 3 e 4 -->
 	<div class="container">
@@ -300,5 +312,6 @@
 	      </div>
      </div>
     </div>
+
 </body>
 </html>

@@ -73,6 +73,7 @@ verde{
 	margin: 0 !important;
 	top: 70px;
 	left: 50px;
+	box-shadow: 0px 3px 6px rgba(52, 60, 88, 0.4);
 }
 .ButtonS2-cond{
 	width: 150px;
@@ -84,6 +85,7 @@ verde{
 	margin: 0 !important;
 	top: 70px;
 	left: calc(100vw - 350px);
+	box-shadow: 0px 3px 6px rgba(52, 60, 88, 0.4);
 }
 
 .ButtonS2-mente{
@@ -95,6 +97,7 @@ verde{
 	padding: 20px;
 	margin: 0 auto !important;
 	top: 430px;
+	box-shadow: 0px 3px 6px rgba(52, 60, 88, 0.4);
 }
 
 .ButtonS2-figure{
