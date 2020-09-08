@@ -71,12 +71,44 @@ verde{
     padding-bottom: 25px;
 }
 
+.button-verde{
+    background-color: rgb(143,219,130,0.3)!important;
+    opacity: 100%;
+    border-radius: 22px !important;
+    border: solid;
+    border-color: #7FCA70;
+    font-family: Roboto-Medium !important;
+    color: black;
+    font-size: 22px !important;
+    cursor: pointer;
+    position: relative !important;
+}
+.button-cinza{
+    background-color: white !important;
+    opacity: 100%;
+    border-radius: 22px !important;
+    border: solid;
+    border-color: #666E75;
+    font-family: Roboto-Medium !important;
+    color: #666E75;
+    font-size: 22px !important;
+    cursor: pointer;
+    position: relative !important;
+}
+.circulo{
+    margin: 36px 0;
+}
+.row .lista{
+    padding-bottom: 0;
+    margin: 0 auto;
+}
 #inner{
 	position: absolute;
     left: 0;
     right: 0;
     top: 874%;
-    background-color: #4c5;
+    background-color: white;
     color: #333;
-    display: block;
+    margin: 0 auto;
+    width: 75%;
 }
