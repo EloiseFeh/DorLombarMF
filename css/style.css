@@ -100,8 +100,27 @@ verde{
 	box-shadow: 0px 3px 6px rgba(52, 60, 88, 0.4);
 }
 
-.ButtonS2-figure{
+.modal{
+	border-radius: 400px !important;
+}
 
+.modal-content{
+	padding: 150px !important;
+	text-align: center;
+}
+
+.modal-content h2{
+	padding-bottom: 25px !important;
+	font-weight: bold !important;
+	color: black;
+}
+
+.modal-content p{
+	padding-bottom: 25px !important;
+}
+
+.modal-content a{
+	font-size: 26px;
 }
 
 .images{
