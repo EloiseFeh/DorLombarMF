@@ -1,5 +1,7 @@
 @import "fonts.css";
-
+.container{
+	margin-bottom: 100px !important;
+}
 h2{
 	font-style: normal;
 	font-weight: 500;
@@ -54,6 +56,49 @@ button{
 verde{
 	font-weight: bold;
 	color: #41B381;
+}
+
+.Button-noAbso{
+	position: static;
+	filter: drop-shadow(0px 3px 6px rgba(52, 60, 88, 0.4));
+}
+
+.ButtonS2{
+	width: 150px;
+	height: 150px !important;
+	border-radius: 100px !important;
+	background: #41B381;
+	position: absolute;
+	padding: 20px;
+	margin: 0 !important;
+	top: 70px;
+	left: 50px;
+}
+.ButtonS2-cond{
+	width: 150px;
+	height: 150px !important;
+	border-radius: 100px !important;
+	background: #41B381;
+	position: absolute;
+	padding: 20px;
+	margin: 0 !important;
+	top: 70px;
+	left: calc(100vw - 350px);
+}
+
+.ButtonS2-mente{
+	width: 150px;
+	height: 150px !important;
+	border-radius: 100px !important;
+	background: #41B381;
+	position: absolute;
+	padding: 20px;
+	margin: 0 auto !important;
+	top: 430px;
+}
+
+.ButtonS2-figure{
+
 }
 
 .images{
