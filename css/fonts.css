@@ -46,7 +46,7 @@
 @font-face {
   font-family: "Roboto-Medium";
   src: url("../fonts/Roboto-Medium.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
 }
 

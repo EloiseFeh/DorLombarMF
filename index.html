@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="js/jquery-3.5.0.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/main.js"></script>
+	<script  src="js/main.js"></script>
 	<meta charset="utf-8">
 	<title>Movimento</title>
 </head>
@@ -89,7 +91,7 @@
 	  <div class="row">
 	  	<div class="col s6 left-align">
 	      	<p>Se o profissional suspeita dessas doenças, você deve ser avaliado de maneira mais detalhada por ele.</p>
-	      	<!-- <button class="center-align">Atenção</button> -->
+	      	<button class="center-align Button-noAbso waves-effect waves-light modal-trigger" href="#modal-ats1">Atenção</button>
 	     </div>
 
 	  	<div class="col s6 center-align">
@@ -100,6 +102,15 @@
 	  </div>
 	  
 	</div>
+
+<!-- Modal Atenção sessão 1 -->
+<div id="modal-ats1" class="modal">
+    <div class="modal-content">
+      <h2>Atenção</h2>
+      <p>Na presença de sinais como perda de peso inexplicável, ter mais de 50 anos, sinal de manchas ou volumes na região lombar, uso prolongado de remédios para a dor, histórico de câncer, procure um profissional especialista para fazer exames mais detalhados.</p>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><verde>voltar</verde></a>
+    </div>
+  </div>
 <!-- Sessão 2 -->
 	<div class="container">
 		<div class="row">
@@ -110,13 +121,61 @@
 	      	<p>Tocando nas categorias você pode ver detalhes.</p>
 	      </div>
 	  </div>
-	  <div class="row">
+	  <div class="row" style="position: relative;">
 	      <div class="col s12 center-align">
 	      	<img class=" imagens responsive-img" src="imgs/meditar.png">
 	      </div>
+
+	      <div class="col s6">
+	      	<button class="ButtonS2 waves-effect waves-light modal-trigger" href="#modal-corpo">
+	      		<img class="ButtonS2-img" src="imgs/icon-corpo.png">
+	      	</button>
+	      	<!-- <p class="ButtonS2-title">Corpo</p> -->
+	      </div>
+
+	      <div class="col s6">
+	      	<button class="ButtonS2-cond waves-effect waves-light modal-trigger" href="#modal-cond">
+	      		<img class="ButtonS2-img" src="imgs/icon-cond.png">
+	      	</button>
+	      </div>
+
+	      <div class="col s12">
+	      	<button class="ButtonS2-mente waves-effect waves-light modal-trigger" href="#modal-mente">
+	      		<img class="ButtonS2-img" src="imgs/icon-mente.png">
+	      	</button>
+	      </div>
+
 	  </div>
 	</div>
-<!-- Sessão 3 e 4 -->
+
+<!-- Modal Corpo -->
+ <div id="modal-corpo" class="modal">
+    <div class="modal-content">
+      <h2>Corpo</h2>
+      <p>Algumas pessoas com dor lombar crônica podem apresentar limitações nas estruturas musculares ou articulares do corpo, e dificuldades em realizar movimentos. A presença de outras doenças e de um estado geral de saúde ruim também podem contribuir para o problema.</p>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><verde>voltar</verde></a>
+    </div>
+  </div>
+
+  <!-- Modal Condições -->
+ <div id="modal-cond" class="modal">
+    <div class="modal-content">
+      <h2>Condições de vida</h2>
+      <p>Ter um estilo de vida menos saudável, ter menor acesso à informação e à cuidados em saúde, e ao excesso de trabalho manual e físico são fatores que podem contribuir para o aumento das dificuldades em seu dia à dia por causa da dor lombar.</p>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><verde>voltar</verde></a>
+    </div>
+  </div>
+
+    <!-- Modal Mente -->
+ <div id="modal-mente" class="modal">
+    <div class="modal-content">
+      <h2>Mente</h2>
+      <p>A maneira como você lida com a dor lombar pode fazer com que essa dor aumente ou diminua. Medo excessivo de se movimentar por causa da dor, deixar de fazer atividades por causa dela, e sintomas de depressão e ansiedade podem aumentar as chances de aumentar o impacto da dor em seu dia a dia, dificultando a recuperação.</p>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><verde>voltar</verde></a>
+    </div>
+  </div>
+
+<!-- Sessão 3 -->
 	<div class="container">
 	  <div class="row">
 	      <div class="col s12">
@@ -137,18 +196,127 @@
 	      	<h6>Dor lombar aguda</h6>
 	      	<img class="responsive-img" src="imgs/dor-lombar-aguda.png" >
 	      	<div class="col s6">
-	      		<button>Ver Mais</button>
+	      		<button class="waves-light modal-trigger" href="#modal1">Ver Mais</button>
 	      	</div>
 	      </div>
 	      <div class=" div-sombra col s5 center-align z-depth-2 shadow-demo offset-s2">
 	      	<h6>Dor lombar crônica</h6>
 	      	<img class="responsive-img" src="imgs/dor-lombar-cronica.png" >
 	      	<div class="col s6">
-	      		<button id="cronica">Ver Mais</button>
+	      		<button class="waves-light modal-trigger" href="#modal2">Ver Mais</button>
 	      	</div>
 	      </div>
 	  </div>
+	  <!--MODAL 1 SESSAO 3-->
+	  <div id="modal1" class="modal modal-sessao3 bottom-sheet">
+	    <div class="modal-content sessao3">
 	  <div class="row">
+	  	<div class="col s12">
+	  		<h4>Dor Lombar Aguda</h4>
+	  		<div class="row linha">
+	  			<div class="col s6 center-align">
+	  				<button id="button-verde" class="button-verde" onclick="funcaoAguda1()">Primeira Linha</button>
+	  			</div>
+	  			<div class="col s6 center-align">
+	  				<button id="button-cinza" class="button-cinza" onclick="funcaoAguda2()">Segunda Linha</button>
+	  			</div>
+	  		</div>
+	  		<div class="col s12 center-align">
+	  			<p id="paragrafo1-aguda">Educação e auto gerenciamento da dor, incluindo:</p>
+	  		</div>
+	  		<div class="col s12 center-align">
+	  			<img src="imgs/1-aguda.png" id="img-aguda">
+	  		</div>
+	  		<div class="row lista">
+		  		<div class="col s3 right-align">
+		  			<img src="imgs/circulo.png" class="circulo">
+		  		</div>
+		  		<div class="col s7 lef-align">
+		  			<p id="item1-aguda"><b>Manter-se ativo</b> em sua rotina;</p>
+		  		</div>
+		  	</div>
+		  	<div class="row lista">
+		  		<div class="col s3 right-align">
+		  			<img src="imgs/circulo.png" class="circulo">
+		  		</div>
+		  		<div class="col s7 lef-align">
+		  			<p id="item2-aguda">Entender sobre a <b>natureza da dor</b>;</p>
+		  		</div>
+		  	</div>
+		  	<div class="row lista">
+		  		<div class="col s3 right-align">
+		  			<img src="imgs/circulo.png" class="circulo">
+		  		</div>
+		  		<div class="col s7 lef-align">
+		  			<p id="item3-aguda">Usar calor superficial (como <b>compressa morna</b>) como tratamento auxiliar;</p>
+		  		</div>
+		  	</div>
+
+	  	</div>
+	  </div>
+	    </div>
+	  </div>
+	  <!--FIM MODAL 1 SESSAO 3-->
+	  <!--INICIO MODAL 2 SESSAO 3-->
+	  <div id="modal2" class="modal modal-sessao3 bottom-sheet">
+	    <div class="modal-content sessao3">
+	     <!--POPUP OCULTO DOR LOMBAR CRONICA PRIMEIRA LINHA-->
+	  <div class="row">
+	  	<div class="col s12">
+	  		<h4>Dor Lombar Crônica</h4>
+	  		<div class="row linha">
+	  			<div class="col s6 center-align">
+	  				<button class="button-verde">Primeira Linha</button>
+	  			</div>
+	  			<div class="col s6 center-align">
+	  				<button class="button-cinza">Segunda Linha</button>
+	  			</div>
+	  		</div>
+	  		<div class="col s12 center-align">
+	  			<p id="paragrafo1">Educação e auto cuidado da dor, incluindo:</p>
+	  		</div>
+	  		<div class="col s12 center-align">
+	  			<img src="imgs/1-cronica.png">
+	  		</div>
+	  		<div class="row lista">
+		  		<div class="col s3 right-align">
+		  			<img src="imgs/circulo.png" class="circulo">
+		  		</div>
+		  		<div class="col s7 lef-align">
+		  			<p><b>Manter-se ativo</b> em sua rotina;</p>
+		  		</div>
+		  	</div>
+		  	<div class="row lista">
+		  		<div class="col s3 right-align">
+		  			<img src="imgs/circulo.png" class="circulo">
+		  		</div>
+		  		<div class="col s7 lef-align">
+		  			<p>Entender sobre a <b>natureza da dor</b>;</p>
+		  		</div>
+		  	</div>
+		  	<div class="row lista">
+		  		<div class="col s3 right-align">
+		  			<img src="imgs/circulo.png" class="circulo">
+		  		</div>
+		  		<div class="col s7 lef-align">
+		  			<p>Tratamento baseado em <b>exercícios físicos</b>;</p>
+		  		</div>
+		  	</div>
+		  	<div class="row lista">
+		  		<div class="col s3 right-align">
+		  			<img src="imgs/circulo.png" class="circulo">
+		  		</div>
+		  		<div class="col s7 lef-align">
+		  			<p><b>Terapia comportamental</b> para o enfrentamento da dor.</p>
+		  		</div>
+		  	</div>
+
+	  	</div>
+	  </div>
+	    </div>
+	  </div>>
+	  <!--FIM MODAL 2 SESSAO 3-->
+	  	  <div class="row">
 	      <div class="col s12">
 	      	<h4>O que não fazer</h4>
 	      </div>
@@ -156,7 +324,7 @@
 	  <div class="row linha valign-wrapper right-align">
 	      <div class="col s8 m10">
 	      	<span class="black-text">
-	      		<p>Evite o repouso como forma de remediar a dor lombar. Exercícios também são importantes.</p>
+	      		<p>Evite o <b>repouso</b> como forma de remediar a dor lombar. Exercícios também são importantes.</p>
 	      	</span>
 	      </div>
 	      <div class="col s4 m2">
@@ -169,10 +337,12 @@
 	      </div>
 	      <div class="col s8 m10">
 	      	<span class="black-text">
-	      		<p>Exames complementares ou cirurgia para a coluna nos casos de dor lombar inespecífica: não existe evidência de que estas escolhas melhoram o quadro de dor</p>
+	      		<p><b>Exames complementares ou cirurgia</b> para a coluna nos casos de dor lombar inespecífica: não existe evidência de que estas escolhas melhoram o quadro de dor</p>
 	      	</span>
 	      </div>
 	  </div>
+<!--FIM SESSAO 3-->
+<!--INICIO SESSAO 4-->
       <div class="row">
 	      <div class="col s12">
 	      	<h2>4. O que pode ser feito?</h2>
@@ -278,52 +448,8 @@
 	      	<img class="images responsive-img" src="imgs/codi.png" >
 	      </div>
      </div>
-     <!--POPUP OCULTO DOR LOMBAR CRONICA PRIMEIRA LINHA-->
-	  <div class="row">
-	  	<div class="col s12">
-	  		<h4>Dor Lombar Aguda</h4>
-	  		<div class="row linha">
-	  			<div class="col s6 center-align">
-	  				<button class="button-verde">Primeira Linha</button>
-	  			</div>
-	  			<div class="col s6 center-align">
-	  				<button class="button-cinza">Segunda Linha</button>
-	  			</div>
-	  		</div>
-	  		<div class="col s12 center-align">
-	  			<p>Educação e auto gerenciamento da dor, incluindo:</p>
-	  		</div>
-	  		<div class="col s12 center-align">
-	  			<img src="imgs/1-aguda.png">
-	  		</div>
-	  		<div class="row lista">
-		  		<div class="col s3 right-align">
-		  			<img src="imgs/circulo.png" class="circulo">
-		  		</div>
-		  		<div class="col s7 lef-align">
-		  			<p>Manter-se ativo em sua rotina;</p>
-		  		</div>
-		  	</div>
-		  	<div class="row lista">
-		  		<div class="col s3 right-align">
-		  			<img src="imgs/circulo.png" class="circulo">
-		  		</div>
-		  		<div class="col s7 lef-align">
-		  			<p>Entender sobre a natureza da dor;</p>
-		  		</div>
-		  	</div>
-		  	<div class="row lista">
-		  		<div class="col s3 right-align">
-		  			<img src="imgs/circulo.png" class="circulo">
-		  		</div>
-		  		<div class="col s7 lef-align">
-		  			<p>Usar calor superficial (como compressa morna) como tratamento auxiliar;</p>
-		  		</div>
-		  	</div>
-
-	  	</div>
-	  </div>
-	  <!--FIM DO POPUP-->
+<!--FIM SESSAO 4-->
     </div>
+
 </body>
 </html>
