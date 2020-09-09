@@ -218,3 +218,28 @@ verde{
     padding: 0 70px 0 0;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
+/*Classes para correção de espaçamento*/
+
+.removeMarginB{
+	margin-bottom: 0 !important;
+}
+
+.paddingTop{
+	padding-top: 50px !important;
+}
+.paddingBottom{
+	padding-bottom: 50px !important;
+}
+.setPadding{
+	padding: 50px !important; 
+}
+.setPaddingsH{
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+
+.setPaddingsV{
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+}
