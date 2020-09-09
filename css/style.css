@@ -214,4 +214,5 @@ verde{
 }
 .fechar-modal{
     padding: 0 70px 0 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
