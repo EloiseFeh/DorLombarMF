@@ -206,9 +206,12 @@ verde{
 }
 
 #modal1 h4{
-    font-size: 44px;
+    font-size: 59px;
 }
 
 #modal2 h4{
-    font-size: 44px;
+    font-size: 59px;
+}
+.fechar-modal{
+    padding: 0 70px 0 0;
 }

@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Modal.init(elems);
 });
 
+/*FUNÇÕES DO MODAL QUE DESLIZA PARA CIMA DA SESSAO 3*/
 function funcaoAguda1() {
     document.getElementById("paragrafo1-aguda").innerHTML = "Educação e auto gerenciamento da dor, incluindo:";
     document.getElementById("img-aguda").src="imgs/1-aguda.png";
