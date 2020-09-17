@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /*FUNÇÕES DO MODAL QUE DESLIZA PARA CIMA DA SESSAO 3*/
 function funcaoAguda1() {
-    document.getElementById("paragrafo1-aguda").innerHTML = "Educação e auto gerenciamento da dor, incluindo:";
+    // document.getElementById("paragrafo1-aguda").innerHTML = "Educação e auto gerenciamento da dor, incluindo:";
     document.getElementById("img-aguda").src="imgs/1-aguda.png";
     document.getElementById("item1-aguda").innerHTML = "<b>Manter-se</b> ativo em sua rotina;";
     document.getElementById("item2-aguda").innerHTML = "Entender sobre a <b>natureza da dor</b>;";
@@ -18,7 +18,7 @@ function funcaoAguda1() {
     document.getElementById("button-cinza-aguda").style.background='white';
 }
 function funcaoAguda2() {
-    document.getElementById("paragrafo1-aguda").innerHTML = "Quando a primeira escolha não traz resultados satisfatórios, podem ser prescritos pela equipe de saúde:";
+    document.getElementById("paragrafo1-aguda").innerHTML = "Quando a primeira escolha não traz resultados satisfatórios, converse com a equipe de saúde: ela pode prescrever";
     document.getElementById("img-aguda").src="imgs/2-aguda.png";
     document.getElementById("item1-aguda").innerHTML = "Uso de <b>medicamento</b> para alívio de dor;";
     document.getElementById("item2-aguda").innerHTML = "Tratamento baseado em <b>exercícios físicos</b>;";
@@ -32,7 +32,7 @@ function funcaoAguda2() {
 }
 
 function funcaoCronica1() {
-    document.getElementById("paragrafo1-cronica").innerHTML = "Educação e auto cuidado da dor, incluindo:";
+    // document.getElementById("paragrafo1-cronica").innerHTML = "Educação e auto cuidado da dor, incluindo:";
     document.getElementById("img-cronica").src="imgs/1-cronica.png";
     document.getElementById("item1-cronica").innerHTML = "<b>Manter-se</b> ativo em sua rotina;";
     document.getElementById("item2-cronica").innerHTML = "Entender sobre a <b>natureza da dor</b>;";
