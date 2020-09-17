@@ -67,7 +67,7 @@ button:focus{
 
 verde{
 	font-weight: bold;
-	color: #41B381;
+	color: #9ED692;
 }
 
 .Button-noAbso{
@@ -128,7 +128,7 @@ verde{
 }
 
 .modal-content p{
-	padding-bottom: 25px !important;
+	/*padding-bottom: 25px !important;*/
 }
 
 .modal-content a{
@@ -227,6 +227,10 @@ verde{
 
 .removeMarginB{
 	margin-bottom: 0 !important;
+}
+
+.removePaddingB{
+	padding-bottom: 0 !important;
 }
 
 .paddingTop{
