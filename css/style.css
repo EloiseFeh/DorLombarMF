@@ -87,6 +87,17 @@ verde{
 	left: 50px;
 	box-shadow: 0px 3px 6px rgba(52, 60, 88, 0.4);
 }
+
+.LabelS2{
+	position: absolute;
+	padding: 20px;
+	margin: 0 !important;
+	font-size: 36px;
+	font-weight: bolder;
+	top: 215px;
+	left: 55px;
+}
+
 .ButtonS2-cond{
 	width: 150px;
 	height: 150px !important;
@@ -100,6 +111,19 @@ verde{
 	box-shadow: 0px 3px 6px rgba(52, 60, 88, 0.4);
 }
 
+
+.LabelS2-cond{
+	position: absolute;
+	padding: 20px;
+	margin: 0 !important;
+	font-size: 36px;
+	font-weight: bolder;
+	top: 215px;
+	left: calc(100vw - 395px);
+	text-align: center;
+	line-height: 1.2;
+}
+
 .ButtonS2-mente{
 	width: 150px;
 	height: 150px !important;
@@ -110,6 +134,16 @@ verde{
 	margin: 0 auto !important;
 	top: 430px;
 	box-shadow: 0px 3px 6px rgba(52, 60, 88, 0.4);
+}
+
+.LabelS2-mente{
+	position: absolute;
+	padding: 20px;
+	margin: 0 auto !important;
+	font-size: 36px;
+	font-weight: bolder;
+	bottom: -140px;
+	left: calc(100vw - 65vw);
 }
 
 .modal{
