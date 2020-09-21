@@ -36,6 +36,7 @@ h6{
 p{
 	font-family: Roboto-Medium;
     font-size: 30px;
+    margin: 0;
 
 }
 b{
@@ -162,7 +163,7 @@ verde{
 }
 
 .modal-content p{
-	/*padding-bottom: 25px !important;*/
+	padding-bottom: 25px !important;
 }
 
 .modal-content a{
@@ -217,7 +218,7 @@ verde{
      background-color: white;
 }
 .circulo{
-    margin: 36px 0;
+    margin: 14px 0;
 }
 .row .lista{
     padding-bottom: 0;
@@ -284,4 +285,8 @@ verde{
 .setPaddingsV{
 	padding-left: 50px !important;
 	padding-right: 50px !important;
+}
+
+.img-modal{
+    margin: 50px 0px 88px 0;
 }
