@@ -93,10 +93,9 @@ verde{
 	position: absolute;
 	padding: 20px;
 	margin: 0 !important;
-	font-size: 36px;
 	font-weight: bolder;
 	top: 215px;
-	left: 55px;
+	left: 65px;
 }
 
 .ButtonS2-cond{
@@ -117,7 +116,6 @@ verde{
 	position: absolute;
 	padding: 20px;
 	margin: 0 !important;
-	font-size: 36px;
 	font-weight: bolder;
 	top: 215px;
 	left: calc(100vw - 395px);
@@ -141,10 +139,9 @@ verde{
 	position: absolute;
 	padding: 20px;
 	margin: 0 auto !important;
-	font-size: 36px;
 	font-weight: bolder;
 	bottom: -140px;
-	left: calc(100vw - 65vw);
+	left: calc(100vw - 64vw);
 }
 
 .modal{
